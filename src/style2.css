@@ -1,0 +1,216 @@
+body{
+	font-family: sans-serif;
+	background: #D6E8DC;
+	position: fixed;
+	size: 400px;
+}
+
+.welcome{
+	
+    position: absolute;
+    width: 632px;
+    height: 68px;
+    left: 153px;
+    top: 117px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    
+    color: #000000;
+    }
+
+.logo{
+    position: absolute;
+    width: 439px;
+    height: 439px;
+    left: 560px;
+    top: 103px;
+    opacity: 40%;
+}
+
+.down{
+
+    position: absolute;
+    width: 1550px;
+    height: 39px;
+    left: -10px;
+    top: 750px;
+    
+    background: #7D9D9C;
+    }
+
+.side{
+    position: absolute;
+width: 96px;
+height: 1024px;
+left: -20px;
+top: -10px;
+
+background: #7D9D9C;
+}
+
+.home1{
+	position: absolute;
+width: 100px;
+height: 73px;
+left: -12px;
+top: 52px;
+
+background: url("img/noun-home-button-14394381.png");
+
+}
+
+.scan{
+	position: absolute;
+width: 60px;
+height: 62px;
+left: 3px;
+top: 180px;
+
+background: url("img/noun-scan-51374011.png");
+}
+
+.doctor{
+	position: absolute;
+width: 76px;
+height: 76px;
+left: 0px;
+top: 300px;
+
+background: url("img/noun-doctor-2909354.png");
+}
+.record{
+	position: absolute;
+width: 71px;
+height: 62px;
+left: -5px;
+top: 440px;
+
+background: url("img/noun-record-file-4309186.png");
+}
+.settings{
+	position: absolute;
+width: 86px;
+height: 66px;
+left: -10px;
+top: 555px;
+
+background: url("img/noun-settings-5131286.png");
+}
+
+.line{
+
+    position: absolute;
+    width: 200.15px;
+    height: 0px;
+    left: 153px;
+    top: 170.15px;
+    
+    border: 5px solid #000000;
+    transform: rotate(-0.69deg);
+}
+.bookmark{
+
+    width: 0px;
+    height: 35px;
+    background-color: transparent;
+    position: absolute;
+    top: -8px;
+    right: -1500px;
+    border: solid 15px #7D9D9C;
+    border-bottom: solid 15px transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.bookmark:hover {
+    height: 65px;
+    opacity: 1.0s;
+}
+
+.bookmark:active { 
+    border-color: #d00;
+    border-bottom-color: transparent;
+}
+
+/*.username{
+	position: absolute;
+width: 166px;
+height: 36px;
+left: 1320px;
+top: 210px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: black;
+}
+.name{
+	position: absolute;
+width: 269px;
+height: 28px;
+left: 1180px;
+top: 289px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: black;
+}
+.age{
+	position: absolute;
+width: 156px;
+height: 28px;
+left: 1178px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: black;
+}
+.gender{
+	position: absolute;
+width: 236px;
+height: 28px;
+left: 1180px;
+top: 420px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: black;
+
+}
+.blood{
+	position: absolute;
+width: 234px;
+height: 28px;
+left: 1180px;
+top: 490px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: black;
+}*/

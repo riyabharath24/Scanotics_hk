@@ -1,0 +1,261 @@
+body{
+	font-family: sans-serif;
+	background: #D6E8DC;
+	position: fixed;
+  
+  
+}
+
+.login{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1040.71px;
+    height: 700.23px;
+    left: -492px;
+    top: 100.78px;
+    
+    background: #1E443D;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transform: rotate(-45.01deg);
+    }
+
+.shapes{
+    position: absolute;
+width: 1027.71px;
+height: 955.23px;
+left: 80px;
+top: 600.78px;
+
+background: #317262;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+transform: rotate(-45.01deg);
+}
+
+.logo{
+	position: absolute;
+width: 280px;
+height: 274px;
+left: 260px;
+top: 190px;
+
+}
+
+.image2{
+	position: absolute;
+width: 150px;
+height: 133px;
+left: 5px;
+top: 130px;
+
+}
+
+.image3{
+	position: absolute;
+width: 154px;
+height: 154px;
+left: 5px;
+top: 270px;
+
+}
+
+.image6{
+	position: absolute;
+width: 219px;
+height: 219px;
+left: -30px;
+top: 378px;
+
+}
+
+.line1{
+	position: absolute;
+width: 1005.5px;
+height: 0px;
+left: -492.54px;
+top: 300px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.line2{
+	position: absolute;
+width: 1005.5px;
+height: 0px;
+left: -690.54px;
+top: 5px;
+
+border: 3px solid #F2F1EF;
+
+}
+
+.user{
+	position: absolute;
+width: 160px;
+height: 127px;
+left: 1030px;
+top: 100px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.eye{
+	position: absolute;
+width: 48px;
+height: 45px;
+left: 1300px;
+top: 388px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+  */
+
+.email{
+	position: absolute;
+width: 380px;
+height: 34px;
+left: 913px;
+top: 278px;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #7D9D9C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  
+  
+}
+
+.password{
+	position: absolute;
+width: 380px;
+height: 63px;
+left: 913px;
+top: 388px;
+}
+
+.password input[type=password], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #7D9D9C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+  }
+
+.button1{
+	position: absolute;
+width: 122px;
+height: 40px;
+left: 1400px;
+background: #7D9D9C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+color: white;
+border: #000000;
+border-radius: 10px;
+}
+.button1:hover{
+	opacity: 0.6;
+}
+button{
+	position: absolute;
+width: 152px;
+height: 40px;
+left: 1024px;
+top: 508px;
+
+background: #7D9D9C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+border-radius: 10px;
+}
+
+button:hover{
+	opacity: 0.6;
+}
+
+.social{
+	position: absolute;
+width: 50px;
+height: 50px;
+left: 1024px;
+top: 601px;
+
+}
+
+.social1{
+	position: absolute;
+width: 50px;
+height: 50px;
+left: 1150px;
+top: 601px;
+
+background: url(icons8-facebook-50.png)
+}
+
+.circle1{
+	box-sizing: border-box;
+position: absolute;
+width: 65px;
+height: 65px;
+left: 1142px;
+top: 594px;
+
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+
+.circle2{
+	box-sizing: border-box;
+
+position: absolute;
+width: 65px;
+height: 65px;
+left: 1017px;
+top: 593px;
+
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+
+
+
