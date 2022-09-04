@@ -25,6 +25,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="src/util.css">
 	<link rel="stylesheet" type="text/css" href="src/main.css">
+	
 <!--===============================================================================================-->
 </head>
 <body style="background-color: #666666;">
@@ -41,14 +42,14 @@
 					
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email">
+						<input class="input100" type="text" name="email" id="email" />
 						<span class="focus-input100"></span>
 						<span class="label-input100">Email</span>
 					</div>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass">
+						<input class="input100" type="password" name="pass" id="password"/>
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
 					</div>
@@ -70,8 +71,9 @@
 			
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" onclick="validate()" >
 							Login
+							
 						</button>
 					</div>
 					
@@ -129,7 +131,15 @@
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/main.js"></script>
+	<script>
+		function myclick(){
+			window.location.href("homepage.html")
+		}
+		
+	</script>
+
 
 </body>
 </html>
