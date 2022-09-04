@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.main-container {
+    height: 100vh;
+
+    display: flex;
+}
+
+/* menu section styling 8*/
+.menu-container {
+    background-color: #7D9D9C;
+    width: 5%;
+    height: inherit;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    min-width: 70px;
+}
+.menu-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    list-style-type: none;
+    height: 60%;
+}
+.menu-icon-container li {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 80%;
+}
+
+/* content section styling 8*/
+
+
+.content-container {
+    padding: 45px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    min-width: 1000px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.heading-with-underline-container {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+.main-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.heading-underline {
+    width: 1340px;
+    height: 3px;
+    background-color: black;
+}
+
+/*images section styling 8*/
+
+.heading1{
+    position: absolute;
+width: 313px;
+height: 36px;
+left: 229px;
+top: 252px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 30px;
+line-height: 36px;
+
+color: #021f1e;
+}
+.heading2{
+    position: absolute;
+width: 122px;
+height: 36px;
+left: 229px;
+top: 334px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 30px;
+line-height: 36px;
+color: #021f1e;
+
+}
+.heading3{
+    position: absolute;
+width: 196px;
+height: 36px;
+left: 470px;
+top: 252px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.heading4{
+    position: absolute;
+width: 334px;
+height: 36px;
+left: 325px;
+top: 335px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.main-icon{
+
+    width: 0px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: +25px;
+    border: solid 30px #7D9D9C;
+    border-bottom: solid 30px transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .main-icon:hover {
+    height: 65px;
+    opacity: 1.0s;
+  }
+  
+  .main-icon:active { 
+    border-color: #d00;
+    border-bottom-color: transparent;
+  }
