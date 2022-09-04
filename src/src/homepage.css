@@ -1,0 +1,323 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+body{
+    background: #D6E8DC;
+}
+.main-container {
+    height: 100vh;
+
+    display: flex;
+}
+.welcome{
+	
+    position: absolute;
+    width: 632px;
+    height: 68px;
+    left: 153px;
+    top: 117px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    
+    color: #000000;
+    }
+    .logo{
+        position: absolute;
+    width: 439px;
+    height: 439px;
+    left: 660px;
+    top: 283px;
+    
+    background: url(pital1.png);
+    opacity: 40%;
+    }
+    .line{
+
+        position: absolute;
+        width: 200.15px;
+        height: -5px;
+        left: 153px;
+        top: 170.15px;
+        
+        border: 5px solid #000000;
+        transform: rotate(-0.0deg);
+        }
+/* menu section styling 8*/
+.menu-container {
+    background-color: #7D9D9C;
+    width: 5%;
+    height: inherit;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    min-width: 70px;
+}
+.menu-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    list-style-type: none;
+    height: 60%;
+}
+.menu-icon-container li {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 80%;
+}
+.menu-icon:hover{
+    background-color: rgb(207, 204, 204);
+}
+.menu-icon:active { 
+    border-color: rgb(85, 81, 81);
+    border-bottom-color: transparent;
+  }
+
+/* content section styling 8*/
+
+
+.content-container {
+    padding: 45px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    min-width: 1000px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.heading-with-underline-container {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+.main-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.heading-underline {
+    width: 1340px;
+    height: 3px;
+    background-color: black;
+}
+
+/*images section styling 8*/
+
+.image-container {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 236px;
+    height: 187px;
+    left: 200px;
+    top: 151px;
+    
+    background: #D9D9D9;
+    border: 2px solid #000000;
+}
+.card-image{
+    position: absolute;
+width: 166px;
+height: 147px;
+left: 22px;
+top: 23px;
+
+background: url(noun-account-1575282.png);
+}
+/*change-icons*/
+.change1{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 460px;
+top: 273px;
+background: url(882828-600.png);
+}
+.change2{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 398px;
+background: url(882828-600);
+}
+.change3{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 459px;
+background: url(882828-600);
+}
+.change4{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 531px;
+background: url(882828-600);
+}
+.change5{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 594px;
+background: url(882828-600);
+}
+.change6{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 658px;
+background: url(882828-600);
+}
+.change7{
+    position: absolute;
+width: 93px;
+height: 72px;
+left: 1200px;
+top: 729px;
+background: url(882828-600);
+}
+.main-icon{
+
+    width: 0px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: +25px;
+    border: solid 30px #7D9D9C;
+    border-bottom: solid 30px transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .main-icon:hover {
+    height: 65px;
+    opacity: 1.0s;
+  }
+  
+  .main-icon:active { 
+    border-color: #d00;
+    border-bottom-color: transparent;
+  }
+  /*Headings section*/
+  .bookmark1{
+    position: absolute;
+width: 900.5px;
+height: 772px;
+left: 1300px;
+top: 200px;
+opacity: 60%;
+  }
+.user1{
+    position: absolute;
+    width: 166px;
+    height: 147px;
+    left: 1658px;
+    top: 220px;
+    
+    background: url(noun-account-1575282.png);
+  }
+  .username{
+      position: absolute;
+  width: 166px;
+  height: 36px;
+  left: 380px;
+  top: 160px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: black;
+  }
+  .name{
+      position: absolute;
+  width: 269px;
+  height: 28px;
+  left: 190px;
+  top: 220px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: black;
+  }
+  .age{
+      position: absolute;
+  width: 156px;
+  height: 28px;
+  left: 190px;
+  top: 290px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: black;
+  }
+  .gender{
+      position: absolute;
+  width: 236px;
+  height: 28px;
+  left: 190px;
+  top: 360px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: black;
+  
+  }
+  .blood{
+      position: absolute;
+  width: 234px;
+  height: 28px;
+  left: 190px;
+  top: 430px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: black;
+  }
+

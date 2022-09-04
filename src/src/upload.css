@@ -1,0 +1,252 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.main-container {
+    height: 100vh;
+
+    display: flex;
+}
+
+/* menu section styling 8*/
+.menu-container {
+    background-color: #7D9D9C;
+    width: 5%;
+    height: inherit;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    min-width: 70px;
+}
+.menu-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    list-style-type: none;
+    height: 60%;
+}
+.menu-icon-container li {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 80%;
+}
+
+/* content section styling 8*/
+
+
+.content-container {
+    padding: 45px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    min-width: 1000px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.heading-with-underline-container {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+.main-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.heading-underline {
+    width: 1140px;
+    height: 3px;
+    background-color: black;
+}
+
+/*images section styling 8*/
+
+.image-container {
+    background-color: #D9D9D9;
+    width: 350px;
+    height: 500px;
+    left: 650px;
+    top: 189px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-icon-container{
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 351px;
+    top: 370px;
+}
+
+.card {
+    height: 400px;
+    background-color: #D9D9D9;
+    width: 250px;
+
+    padding: 25px;
+}
+.sub-card-heading {
+    font-size: 45px;
+    font-weight: 400;
+}
+.main-icon{
+
+    width: 0px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: +25px;
+    border: solid 30px #7D9D9C;
+    border-bottom: solid 30px transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .main-icon:hover {
+    height: 65px;
+    opacity: 1.0s;
+  }
+  
+  .main-icon:active { 
+    border-color: #d00;
+    border-bottom-color: transparent;
+  }
+.good-card-font{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.end-card-container{
+    position: absolute;
+    width: 657px;
+    height: 63px;
+    left: 565px;
+    top: 694px;
+    
+    background: #7D9D9C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 992px){
+    .heading-underline{
+        width: 500px;
+        height: 3px;
+        background-color: black;
+    }
+
+    .image-container{
+        background-color: #D9D9D9;
+        width: 350px;
+        height: 500px;
+        left: 30px;
+        top: -10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .good-card-font{
+        margin-top: 5px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 54px;
+        color: #FFFFFF;
+    }
+
+    .end-card-container{
+        position: absolute;
+        width: 657px;
+        height: 63px;
+        left: 250px;
+        top: 794px;
+        background: #7D9D9C;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+
+@media (max-width: 868px) {
+    .main-container {
+        display: flex;
+    }
+    
+    .heading-underline{
+        width: 500px;
+        height: 3px;
+        background-color: black;
+    }
+
+    .image-container{
+        background-color: #D9D9D9;
+        width: 350px;
+        height: 500px;
+        left: 30px;
+        top: -55px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .good-card-font{
+        margin-top: 5px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 54px;
+        color: #FFFFFF;
+    }
+
+    .end-card-container{
+        position: absolute;
+        width: 657px;
+        height: 63px;
+        left: 250px;
+        top: 634px;
+        background: #7D9D9C;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+    
+
+@media (max-width: 700px) { 
+
+    
+    
+}
+
