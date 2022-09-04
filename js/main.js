@@ -1,11 +1,34 @@
 
+var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "Formget" && password == "formget#123"){
+alert ("Login successfully");
+window.location = "homepage.html"; // Redirecting to other page.
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
+/*
 (function ($) {
     "use strict";
 
 
     /*==================================================================
     [ Focus Contact2 ]*/
-    $('.input100').each(function(){
+  /*  $('.input100').each(function(){
         $(this).on('blur', function(){
             if($(this).val().trim() != "") {
                 $(this).addClass('has-val');
@@ -21,7 +44,7 @@
     [ Validate ]*/
     var input = $('.validate-input .input100');
 
-    $('.validate-form').on('submit',function(){
+ /*   $('.validate-form').on('submit',function(){
         var check = true;
 
         for(var i=0; i<input.length; i++) {
@@ -66,5 +89,5 @@
         $(thisAlert).removeClass('alert-validate');
     }
     
-
-})(jQuery);
+    
+})(jQuery);*/
